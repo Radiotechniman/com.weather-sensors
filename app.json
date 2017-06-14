@@ -21,6 +21,9 @@
 		}, {
 			"name": "Marcel Mol",
 			"email": "marcel@mesa.nl"
+		}, {
+			"name": "Techniman",
+			"email": tweakers.niels@gmail.com"
 		}]
 	},
 	"images": {
@@ -38,7 +41,7 @@
 			"nl": "Regen"
 		},
 		"class": "sensor",
-		"capabilities": [],
+		"capabilities": "measure_rain",
 		"images": {
 			"large": "drivers/rain/assets/images/large.jpg",
 			"small": "drivers/rain/assets/images/small.jpg"
@@ -105,7 +108,7 @@
 			"nl": "Druk/Temperatuur/Vochtigheid"
 		},
 		"class": "sensor",
-		"capabilities": [],
+		"capabilities": ["measure_temperature","measure_humidity","measure_pressure"],
 		"images": {
 			"large": "drivers/temphumbar/assets/images/large.jpg",
 			"small": "drivers/temphumbar/assets/images/small.jpg"
@@ -172,7 +175,7 @@
 			"nl": "Temperatuur/Vochtigheid"
 		},
 		"class": "sensor",
-		"capabilities": [],
+		"capabilities": ["measure_temperature","measure_humidity"],
 		"images": {
 			"large": "drivers/temphum/assets/images/large.jpg",
 			"small": "drivers/temphum/assets/images/small.jpg"
@@ -239,7 +242,7 @@
 			"nl": "Temperatuur"
 		},
 		"class": "sensor",
-		"capabilities": [],
+		"capabilities": ["measure_temperature"],
 		"images": {
 			"large": "drivers/temp/assets/images/large.jpg",
 			"small": "drivers/temp/assets/images/small.jpg"
@@ -305,7 +308,7 @@
 			"en": "Wind"
 		},
 		"class": "sensor",
-		"capabilities": [],
+		"capabilities": ["measure_wind_strength","measure_wind_angle", "measure_gust_strength", "measure_gust_angle"],
 		"images": {
 			"large": "drivers/wind/assets/images/large.jpg",
 			"small": "drivers/wind/assets/images/small.jpg"
@@ -371,7 +374,7 @@
 			"en": "Ultra Violet"
 		},
 		"class": "sensor",
-		"capabilities": [],
+		"capabilities": ["measure_ultraviolet"],
 		"images": {
 			"large": "drivers/uv/assets/images/large.jpg",
 			"small": "drivers/uv/assets/images/small.jpg"
@@ -438,7 +441,7 @@
 			"nl": "Lichtsterkte"
 		},
 		"class": "sensor",
-		"capabilities": [],
+		"capabilities": ["measure_luminance"],
 		"images": {
 			"large": "drivers/luminance/assets/images/large.jpg",
 			"small": "drivers/luminance/assets/images/small.jpg"
