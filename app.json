@@ -41,7 +41,7 @@
 			"nl": "Regen"
 		},
 		"class": "sensor",
-		"capabilities": "measure_rain",
+		"capabilities": ["measure_rain"],
 		"images": {
 			"large": "drivers/rain/assets/images/large.jpg",
 			"small": "drivers/rain/assets/images/small.jpg"
